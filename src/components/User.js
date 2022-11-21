@@ -22,7 +22,7 @@ class User extends React.Component {
                 })
             }} className="edit-icon" />
             <h3>{this.user.first_name} {this.user.last_name}</h3>
-            <img src={this.user.avatar} style={{width: "128px", height: "128px"}} /> 
+            <img src={this.user.avatar} style={{width: "128px", height: "128px"}} alt="" /> 
             <p>{this.user.email}</p>
             <b>{this.user.isHappy ? 'Счастлив :)' : 'Не особо :('}</b>
 
